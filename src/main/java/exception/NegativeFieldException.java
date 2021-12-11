@@ -1,8 +1,8 @@
 package exception;
 
-public class NegativeFieldException extends ExceptionBase {
+public class NegativeFieldException  extends ExceptionBase{
 
-    public NegativeFieldException(String errorMessage, int code, Object... messageArgs) {
-        super(errorMessage, code, messageArgs);
-    }
+  public NegativeFieldException(String errorMessage, int code, Object... messageArgs) {
+    super(errorMessage, code, messageArgs);
+  }
 }
